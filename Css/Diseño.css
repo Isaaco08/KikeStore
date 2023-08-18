@@ -1,0 +1,557 @@
+
+*{
+  font-family: cursive
+}
+
+body {
+  background-color: #BEA6D5;
+  /*background-image: url("https://i.pinimg.com/564x/3e/63/49/3e6349408ac6575f09d2e7ac1ca1f245.jpg");*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  background-color: transparent;
+  background-size: cover;
+  min-height: 10vh;
+}
+
+footer{
+    margin-top: 4%;
+    color: black;
+    background-color: #fff;
+  
+}
+
+.navbar{
+  padding-top: 3%;
+  font-size: 2vh;
+}
+
+.navbar-collapse{
+   flex-grow: 0;
+}
+
+.navbar-brand{
+  color: #000;
+  font-size: 5vh;
+}
+
+.navbar-brand:hover{
+  color: #000;
+}
+
+.nav-item .nav-link{
+  color: #000;
+}
+
+.dropdown-menu{
+  background-color: #fff;
+}
+
+.dropdown-item{
+  color: #000;
+}
+
+.dropdown-item:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+.nav-item .nav-link:hover{
+  background-color: #BEA6D5;
+  color: #fff;
+}
+
+.menu-fixed {
+	position:fixed;
+  flex-grow: 0;
+	z-index:1000;
+	top:0;
+	width:100%;
+  background-color: #fff;
+}
+
+.bi-list{
+  color: #000;
+  font-size: 4vh;
+}
+.bi-cart{
+  color: #fff;
+  font-size: 2vh;
+}
+
+.main-container{
+  margin-top: 2%;
+}
+
+.contenido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Deportivo {
+  background-color: white;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 15px;
+  text-align: center;
+    width: 50%;
+    margin-left: 20px;
+    color: black;
+    border-radius: 3%;
+}
+
+#cotenedorImagen{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic{
+	height: 300px;
+  margin-top: 2%;
+  border: solid;
+}
+
+.info, .pic{
+	display: inline-block;
+}
+
+.info{
+	margin-left: 3%;
+}
+
+.profile{
+  color: white;
+}
+
+.profile, .infoExtra{
+  font-size: 20px;
+}
+
+.utnLogo{
+  margin-top: 2%;
+}
+
+.botonCarrito{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #BEA6D5; /* Color personalizado */
+  color: black;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.botonCarrito:hover{
+  background-color: darkslateblue;
+  color: white;
+}
+
+.acercaDe{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 2%;
+  margin-left: 30%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.about{
+  margin-bottom: 30px;
+}
+
+.textAbout, .textHistoria{
+  margin-left: 2%;
+}
+
+.video{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 32%;
+  width: 100%;
+  max-width: 700px; 
+}
+
+.video video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.audio-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.audio-container audio {
+  display: inline-block;
+  background-color: darkslateblue;
+  border-radius: 100px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.audio-container audio::-webkit-media-controls-panel {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.headerMaps{
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.headerMaps h3{
+  margin-left: 2%;
+}
+
+.infoFormulario{
+  color: white;
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+.infoDueno{
+  margin-bottom: 3%;
+  margin-right: 2%;
+  border: 2px solid white; 
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+
+.tituloContact{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+#gradoAcademico {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid darkslateblue;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+#gradoAcademico option {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+#gradoAcademico:hover, #gradoAcademico:focus {
+  border-color: #BEA6D5;
+  box-shadow: 0 0 5px #BEA6D5;
+}
+
+
+input{
+  border: 1px solid darkslateblue;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:hover {
+  border-color: darkslateblue;
+}
+
+input:focus {
+  outline: none;
+  border-color: darkslateblue;
+  box-shadow: 0 0 5px darkslateblue;
+}
+
+.input-container{
+  margin-bottom: 2%;
+}
+
+.botonCanton {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  padding: 5px 18px;
+  background: linear-gradient(to right, darkslateblue, #BEA6D5);
+  border-radius: 25px;
+  color: white;
+  border: none;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.boton-enviar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 5px 18px;
+  background: linear-gradient(to right, darkslateblue, #BEA6D5);
+  border-radius: 25px;
+  color: white;
+  border: none;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.boton-enviar:hover{
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.combo {
+  display: inline-block;
+  padding: 1px;
+  border: 2px solid darkslateblue;
+  border-radius: 5px;
+  background-color: white;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.combo:hover {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+	margin-top: 2%;
+  margin-left: 30%;
+}
+
+.panel-title{
+  margin-top: 2%;
+}
+
+.boton-comprar {
+  padding: 15px 100px;
+  font-size: 16px;
+  background-color: white;
+  color: darkslateblue;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 46%;
+  margin-top: 2%;
+}
+
+.boton-comprar:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.msjGracias{
+  margin-top: 2%;
+  margin-left: 32%;
+}
+
+.mensaje-emergente {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkslateblue;
+  color: white;
+  padding: 200px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInOut 2.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item{
+    width: 900px;
+    height: 600px;
+  }
+
+  body{
+    background-color: white;
+  }
+
+  .Deportivo{
+    width: 100%;
+    background-color: #BEA6D5;
+  }
+
+  .contenido{
+    margin-right: 40%;
+    color: white;
+  }
+
+  .pic{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    display: block;
+    border: solid;
+  }
+
+  .info, .infoExtra{
+    display: block;
+    text-align: center;
+  }
+
+  .profile, .infoExtra{
+    font-size: 19px;
+  }
+
+  .nav-item .nav-link:hover{
+    background-color: #BEA6D5;
+    color: #fff;
+  }
+
+  .botonCarrito{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; /* Color personalizado */
+    color: black;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .botonCarrito:hover{
+    background-color: darkslateblue;
+    color: white;
+  }
+
+  .acercaDe{
+    max-width: 800px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 20px;
+    background-color: #BEA6D5;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 2%;
+    border: solid darkslateblue;
+  }
+
+  .video{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  
+  .audio-container audio {
+    display: inline-block;
+    background-color: darkslateblue;
+    border-radius: 100px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .audio-container audio::-webkit-media-controls-panel {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: none;
+  }
+
+  form{
+    margin: 0 auto;
+    margin-right: 2%;
+  }
+
+  .boton-enviar{
+    margin: 0 auto;
+  }
+
+  .input-container{
+    display: block;
+    margin: 5%;
+  }
+
+  .formProvin{
+    padding: 3%;
+  }
+
+  .combo{
+    margin: 3%;
+    display: block;
+  }
+
+  .nombre, .email, .rangoIngreso{
+    width: 100%;
+  }
+
+  .botonCanton{
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+  }
+
+  .container{
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-right: 1%;
+  }
+
+  .boton-comprar {
+    margin-left: 32%;
+    padding: 15px 50px;
+    margin-top: 5%;
+  }
+  
+  .msjGracias{
+    margin-left: 2%;
+    width: 100%;
+  }
+
+  .mensaje-emergente {
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: #BEA6D5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInOut 2.5s ease-in-out;
+  }
+}
